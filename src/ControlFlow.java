@@ -7,7 +7,7 @@ import java.util.Scanner;
  * Started Feb 2025
  *
  * @author Shania Muller
- * @version 1.1
+ * @version 1.2
  */
 
 public class ControlFlow {
@@ -31,15 +31,19 @@ public class ControlFlow {
         if (chosenNum < 5) {
             // If less than 5, print new word
             shaniasWord = "Koyangi";
-            System.out.printf("You picked %d! The word is now: %s\n", chosenNum, shaniasWord);
+            String newWord = "Doggy";
+            System.out.printf("You picked %d! The word is now: %s\nNew Word: %s\n", chosenNum, shaniasWord, newWord);
+
         } else {
             // if more than 5, print new word
             shaniasWord = "Neko";
-            System.out.printf("You picked %d! The word is now: %s\n", chosenNum, shaniasWord);
+            String newWord = "Puppy";
+            System.out.printf("You picked %d! The word is now: %s\nNew Word: %s\n", chosenNum, shaniasWord, newWord);
+
         }
 
-        // Despite shaniasWord changing in the if statement, the value remains the same due to the scope
-        System.out.printf("And yet, outside of the scope of the if statement, the word remains: %s\n", shaniasWord);
+        // shaniasWord changed in the if statement and remains changed due to the scope, but the other variable is inaccessible
+        System.out.printf("The word remains changed as: %s\nThe other word in the if statement is not accessible out here.", shaniasWord);
 
     }
 }
