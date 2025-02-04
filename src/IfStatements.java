@@ -1,16 +1,16 @@
 import java.util.Scanner;
 
 /**
- * Beginner Control Flow class.
+ * Beginner Control Flow - If statement class.
  * Followed LinkedIn Learning Video - Learning Java 17 by Kathryn Hodge
  *     ~ https://www.linkedin.com/learning/learning-java-17 ~
  * Started Feb 2025
  *
  * @author Shania Muller
- * @version 1.2
+ * @version 1.21
  */
 
-public class ControlFlow {
+public class IfStatements {
     public static void main(String[] args) {
         // SCOPE - The area in which a variable is accessible
         // This variable's scope is local to psvm

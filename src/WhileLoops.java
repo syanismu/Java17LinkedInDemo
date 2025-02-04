@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
- * Beginner While Loop class.
+ * Beginner Control Flow - While Loop class.
  * Followed LinkedIn Learning Video - Learning Java 17 by Kathryn Hodge
  *     ~ https://www.linkedin.com/learning/learning-java-17 ~
  * Started Feb 2025
