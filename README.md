@@ -13,27 +13,27 @@ Personal comments will be left to explain the code and my understanding.
 If you are reading this, welcome :) 
 
 ## Content
-1. HelloWorld
+### HelloWorld
 * Data Types and variables
 * Playing with strings
-* Input and Ouput
-2. IfStatements
+* Input and Ouput 
+### IfStatements
 * User Input
-* If Else Statement
-3. WhileLoops
+* If Else Statement 
+### WhileLoops
 * Boolean expressions
 * User Input
 * While Loops
-4. Functions
+### Functions
 * Functions
 * Parameters
 * User Input
 * Return Types
-5. Triangle
+### Triangle
 * Triangle Class
 * Constructors
 * Static variable
 * Instance Methods
-6. Main
+### Main
 * Create Triangle Objects
 * Use instance methods
