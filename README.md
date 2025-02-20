@@ -4,6 +4,7 @@ Demo code that follows the LinkedIn Learning video - [Learning Java 17 by Kathry
 Created By: Shania Muller
 
 Started: Feb 1 2025
+
 Last Updated: Feb 20, 2025
 
 ## Objective
